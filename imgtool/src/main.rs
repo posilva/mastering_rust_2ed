@@ -1,7 +1,6 @@
 use std::env;
 use std::path::Path;
 
-##[derive(Debug)]
 fn main() {
     let image_path = env::args().skip(1).next().unwrap();
     let path = Path::new(&image_path);
